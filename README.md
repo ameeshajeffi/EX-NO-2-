@@ -1,5 +1,6 @@
 ## EX. NO:2 IMPLEMENTATION OF PLAYFAIR CIPHER
-
+DATE : 28/08/2025
+REG NO:212223220007
 ## AIM:
 
 To write a C program to implement the Playfair Substitution technique.
@@ -63,7 +64,7 @@ void playfair(char *in, char *out, int enc)
 int main() 
 {
     char encrypted[100], decrypted[100];
-    char text[] = "VARSHA";
+    char text[] = "AMEESHAJEFFI";
     playfair(text, encrypted, 1);
     printf("Encrypted: %s\n", encrypted);
     playfair(encrypted, decrypted, 0);
@@ -72,4 +73,8 @@ int main()
 ~~~
 
 ## Output:
-![cry ex 2](https://github.com/user-attachments/assets/bfdb8d5c-9958-477c-b518-87914a259c27)
+
+<img width="1920" height="1080" alt="Screenshot 2025-08-28 140227" src="https://github.com/user-attachments/assets/34b0f0ad-cb9a-4121-8945-7211a4f17f5c" />
+
+## RESULT:
+The program is executed successlly.
